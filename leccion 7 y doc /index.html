@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar has-shadow is-primary">
+        <!--Logo / brand-->
+        <div class="navbar-brand">
+            <a href="#" class="navbar-item">
+                <img class="py-2 px-2" src="./assets/logo.png" alt="site logo" style="max-height: 45px;">
+            </a>
+            <a id="burger" class="navbar-burger" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        <div id="nav-links" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="#">My Account</a>
+                <a class="navbar-item" href="#">Shopping Cart (0)</a>
+                <a class="navbar-item" href="#">Pedro</a>
+                <a class="navbar-item" href="#">No se</a>
+                <a class="navbar-item" href="#">¿?</a>
+            </div>
+        </div>
+    </nav>
+
+    <!--Breadcrumbs-->
+    <div class="columns is-centered">
+        <div class="section pt-4 pb-0">
+            <nav class="breadcrumb has-bullet-separator">
+                <ul class="container is-size-7">
+                    <li><a class="has-text-grey" href="#">Shop</a></li>
+                    <li><a class="has-text-grey" href="#">Coffee Ninja</a></li>
+                    <li class="is-active"><a class="has-text-link" href="#">Otro</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <!--Section -->
+
+    <section class="section box">
+        <div class="containerS">
+            <div class="columns is-vcentered mb-1">
+                <div class="column is-3">
+                    <h1 class="is-size-1 title">Docker</h1>
+                    <h1 class="is-size-2 subtitle">Dark Roast</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi similique ducimus iure reprehenderit sequi cupiditate architecto minus aperiam saepe ipsa?</p>
+                </div>
+                <div class="column is-5 has-text-centered">
+                    <img src="./assets/product.png">
+                </div>
+                <div class="column is-4">
+                    <div class="is-size-4 mb-4">$12</div>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, nam!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-8 is-variable">
+                <div class="column">
+                    <div class="tabs is-boxed">
+                        <ul>
+                            <li class="is-active" data-target = "product-details">
+                                <a>Product Details</a>
+                            </li>
+                            <li data-target = "dely">
+                                <a>Dely</a>
+                            </li>
+                            <li data-target = "prueba">
+                                <a>Prueba</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id = "tab-content" class="px-2">
+                        <div id="product-details">
+                            <h3 class="is-size-5 title">Product Details</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus necessitatibus illo deserunt magnam vel ipsum, nulla cum maxime quaerat modi quae esse sunt eveniet. Voluptatibus dolore corrupti fuga ducimus libero.</p>
+                        </div>
+
+                        <div id="dely" class="is-hidden">
+                            <h3 class="is-size-5 title">Dely</h3>
+                            <p>SI Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus necessitatibus illo deserunt magnam vel ipsum, nulla cum maxime quaerat modi quae esse sunt eveniet. Voluptatibus dolore corrupti fuga ducimus libero.</p>
+                        </div>
+                        <div id="prueba" class="is-hidden">
+                            <h3 class="is-size-5 title">Dely</h3>
+                            <p>SI Prueba Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus necessitatibus illo deserunt magnam vel ipsum, nulla cum maxime quaerat modi quae esse sunt eveniet. Voluptatibus dolore corrupti fuga ducimus libero.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+<script src="./index.js"></script>
+
+</html>
