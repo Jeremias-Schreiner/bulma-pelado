@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title>Document</title>
+</head>
+<body >
+    <nav class="navbar has-shadow is-primary"> 
+        <!--Logo / brand-->
+        <div class="navbar-brand">
+            <a href="#" class="navbar-item">
+                <img class="py-2 px-2" src="./assets/logo.png" alt="site logo" style="max-height: 45px;">
+            </a>
+            <a id = "burger" class="navbar-burger" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        <div id = "nav-links" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="#">My Account</a>
+                <a class="navbar-item" href="#">Shopping Cart (0)</a>
+                <a class="navbar-item" href="#">Pedro</a>
+                <a class="navbar-item" href="#">No se</a>
+                <a class="navbar-item" href="#">¿?</a>
+            </div>
+        </div>
+    </nav>
+
+    <!--Breadcrumbs-->
+    <div class="columns is-centered">
+        <div class="section pt-4 pb-0">
+            <nav class="breadcrumb has-arrow-separator">
+                <ul class="container is-size-7">
+                    <li><a class="has-text-grey" href="#">Shop</a></li>
+                    <li><a class="has-text-grey" href="#">Coffee Ninja</a></li>
+                    <li class="is-active"><a href="#">Otro</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!--Columns basics-->
+    <div class="columns">
+        <div class="column has-background-primary-dark">1</div>
+        <div class="column has-background-info">2</div>
+        <div class="column has-background-warning">3</div>
+        <div class="column has-background-danger">4</div>
+    </div>
+
+
+</body>
+<script src="./index.js"></script>
+</html>
